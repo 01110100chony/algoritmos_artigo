@@ -1,13 +1,21 @@
-=== DATA DA COLETA (UTC) ===
-2026-10-16T00:15:46.197448+00:00
+=== DATA DA COLETA (WINDOWS) ===
+2026-10-15 23:17:56
 
-=== PLATAFORMA (Python platform) ===
-System: Windows
-Node: welcome-to-the-wired
-Release: 10
-Version: 10.0.19045
-Machine: AMD64
-Processor: AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD , RYZEN 5 3400G
+=== SISTEMA OPERACIONAL ===
+Microsoft Windows 10 Pro (64 bits)
 
-=== UNAME ===
-MINGW64_NT-10.0-19045 welcome-to-the-wired 3.5.7-463ebcdc.x86_64 2025-03-03 17:26 UTC x86_64 Msys
+=== PROCESSADOR (CPU) ===
+Model name: AMD Ryzen 5 3400G with Radeon Vega Graphics    
+NumberOfCores: 4
+NumberOfLogicalProcessors: 8
+MaxClockSpeed: 3700 MHz
+
+=== CACHES DO PROCESSADOR ===
+L2 cache: 2097152 bytes
+L3 cache: 4194304 bytes
+
+=== MEMORIA PRINCIPAL (RAM) ===
+Total RAM: 15.92 GB
+
+=== COMPILADOR C++ ===
+g++.exe (Rev13, Built by MSYS2 project) 15.2.0

@@ -1,0 +1,44 @@
+% Tabela gerada automaticamente para artigo no formato SBC (Media Aparada)
+\begin{table}[htbp]
+\centering
+\caption{Média aparada (descartando o melhor e o pior resultado) e métricas algorítmicas para $N = 100000$.}
+\label{tab:resultados_gerais}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\hline
+\textbf{Distribuição} & \textbf{Algoritmo} & \textbf{Tempo Médio (ms)} & \textbf{DP (ms)} & \textbf{Comparações} & \textbf{Escritas} & \textbf{Mem. Aux (B)} & \textbf{Prof. Rec.} \\
+\hline
+nearly\_sorted & PDQsort & 0.6400 & 0.0091 & 1169776 & 26974 & 0 & 12 \\
+nearly\_sorted & PowerSort & 1.0551 & 0.0080 & 997368 & 1336863 & 200004 & 1 \\
+nearly\_sorted & MergeSort & 1.5596 & 0.0128 & 1056731 & 2056194 & 400000 & 18 \\
+nearly\_sorted & InsertionSort & 16.4436 & 0.2779 & 33594045 & 33693646 & 0 & 1 \\
+nearly\_sorted & BubbleSort & 4441.7125 & 10.6597 & 4997810654 & 100482138 & 0 & 1 \\
+organ\_pipe & PowerSort & 0.2597 & 0.0033 & 199999 & 224995 & 200004 & 1 \\
+organ\_pipe & MergeSort & 1.4475 & 0.0104 & 601950 & 1768928 & 400000 & 18 \\
+organ\_pipe & PDQsort & 2.9799 & 0.0086 & 2584955 & 1452686 & 0 & 20 \\
+organ\_pipe & InsertionSort & 1241.9016 & 1.1309 & 2500049999 & 2500049998 & 0 & 1 \\
+organ\_pipe & BubbleSort & 24716.9061 & 11.2733 & 4999950000 & 7499850000 & 0 & 1 \\
+random\_uniform & PDQsort & 8.0731 & 0.0724 & 1907165 & 1448376 & 0 & 16 \\
+random\_uniform & PowerSort & 8.9744 & 0.0295 & 1867803 & 2535888 & 200004 & 1 \\
+random\_uniform & MergeSort & 10.3969 & 0.0149 & 1605355 & 3194008 & 400000 & 18 \\
+random\_uniform & InsertionSort & 1232.2782 & 2.2692 & 2499782574 & 2499882560 & 0 & 1 \\
+random\_uniform & BubbleSort & 36896.1798 & 44.0413 & 4999798475 & 7499047758 & 0 & 1 \\
+reverse\_sorted & PowerSort & 0.0964 & 0.0010 & 99999 & 150000 & 200004 & 1 \\
+reverse\_sorted & PDQsort & 0.1329 & 0.0028 & 300032 & 150054 & 0 & 2 \\
+reverse\_sorted & MergeSort & 2.2128 & 0.0036 & 953903 & 3337856 & 400000 & 18 \\
+reverse\_sorted & InsertionSort & 2483.0460 & 1.2160 & 4999950000 & 5000149998 & 0 & 1 \\
+reverse\_sorted & BubbleSort & 45414.5475 & 28.0764 & 4999950000 & 14999850000 & 0 & 1 \\
+sorted & InsertionSort & 0.0417 & 0.0001 & 99999 & 0 & 0 & 1 \\
+sorted & PowerSort & 0.0455 & 0.0032 & 99999 & 0 & 200004 & 1 \\
+sorted & BubbleSort & 0.0811 & 0.0024 & 99999 & 0 & 0 & 1 \\
+sorted & PDQsort & 0.0825 & 0.0003 & 200010 & 6 & 0 & 1 \\
+sorted & MergeSort & 0.5302 & 0.0040 & 99999 & 0 & 400000 & 18 \\
+sorted\_runs & PowerSort & 4.7689 & 0.0320 & 895356 & 1165333 & 200004 & 1 \\
+sorted\_runs & MergeSort & 5.4007 & 0.0194 & 1033013 & 1951654 & 400000 & 18 \\
+sorted\_runs & PDQsort & 5.6939 & 0.0187 & 2030313 & 1436457 & 0 & 16 \\
+sorted\_runs & InsertionSort & 1224.9163 & 2.1859 & 2488639340 & 2488738818 & 0 & 1 \\
+sorted\_runs & BubbleSort & 24955.3725 & 179.9630 & 4999490639 & 7465618038 & 0 & 1 \\
+\hline
+\end{tabular}%
+}
+\end{table}
