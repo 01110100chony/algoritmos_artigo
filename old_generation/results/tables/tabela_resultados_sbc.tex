@@ -1,0 +1,44 @@
+% Tabela gerada automaticamente para artigo no formato SBC
+\begin{table}[htbp]
+\centering
+\caption{Desempenho experimental e metricas algoritmicas para $N = 5000$.}
+\label{tab:resultados_gerais}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\hline
+\textbf{Distribuicao} & \textbf{Algoritmo} & \textbf{Tempo (ms)} & \textbf{DP (ms)} & \textbf{Comparacoes} & \textbf{Escritas} & \textbf{Mem. Aux (B)} & \textbf{Prof. Rec.} \\
+\hline
+nearly\_sorted & PDQsort & 0.0184 & 0.0025 & 37353 & 1241 & 0 & 7 \\
+nearly\_sorted & InsertionSort & 0.0508 & 0.0052 & 100530 & 104907 & 0 & 1 \\
+nearly\_sorted & PowerSort & 0.0738 & 0.0034 & 28846 & 35392 & 10004 & 1 \\
+nearly\_sorted & MergeSort & 0.1572 & 0.0553 & 31948 & 61024 & 20000 & 14 \\
+nearly\_sorted & BubbleSort & 4.1515 & 0.5553 & 11935170 & 286593 & 0 & 1 \\
+organ\_pipe & PowerSort & 0.0226 & 0.0042 & 9999 & 11245 & 10004 & 1 \\
+organ\_pipe & PDQsort & 0.1280 & 0.0429 & 89921 & 55996 & 0 & 11 \\
+organ\_pipe & MergeSort & 0.1450 & 0.0005 & 24750 & 66808 & 20000 & 14 \\
+organ\_pipe & InsertionSort & 4.5462 & 1.2376 & 6252499 & 6252498 & 0 & 1 \\
+organ\_pipe & BubbleSort & 7.7277 & 2.7862 & 12497500 & 18742500 & 0 & 1 \\
+random\_uniform & PowerSort & 0.2163 & 0.0089 & 72376 & 94381 & 10004 & 1 \\
+random\_uniform & MergeSort & 0.2206 & 0.0061 & 58636 & 116566 & 20000 & 14 \\
+random\_uniform & PDQsort & 0.2295 & 0.0268 & 69234 & 57102 & 0 & 12 \\
+random\_uniform & InsertionSort & 4.2425 & 0.8065 & 6201573 & 6206559 & 0 & 1 \\
+random\_uniform & BubbleSort & 14.9763 & 1.8345 & 12493314 & 18589743 & 0 & 1 \\
+reverse\_sorted & PDQsort & 0.0056 & 0.0002 & 15032 & 7554 & 0 & 2 \\
+reverse\_sorted & PowerSort & 0.0079 & 0.0006 & 4999 & 7500 & 10004 & 1 \\
+reverse\_sorted & MergeSort & 0.1361 & 0.0019 & 37003 & 123616 & 20000 & 14 \\
+reverse\_sorted & InsertionSort & 9.2642 & 2.5182 & 12497500 & 12507498 & 0 & 1 \\
+reverse\_sorted & BubbleSort & 9.3766 & 2.4533 & 12497500 & 37492500 & 0 & 1 \\
+sorted & InsertionSort & 0.0014 & 0.0000 & 4999 & 0 & 0 & 1 \\
+sorted & BubbleSort & 0.0015 & 0.0001 & 4999 & 0 & 0 & 1 \\
+sorted & PDQsort & 0.0038 & 0.0003 & 10010 & 6 & 0 & 1 \\
+sorted & PowerSort & 0.0074 & 0.0003 & 4999 & 0 & 10004 & 1 \\
+sorted & MergeSort & 0.0419 & 0.0004 & 4999 & 0 & 20000 & 14 \\
+sorted\_runs & PowerSort & 0.1568 & 0.0242 & 33976 & 42163 & 10004 & 1 \\
+sorted\_runs & MergeSort & 0.2495 & 0.1266 & 40205 & 75065 & 20000 & 14 \\
+sorted\_runs & PDQsort & 0.2959 & 0.2254 & 72919 & 57023 & 0 & 12 \\
+sorted\_runs & InsertionSort & 4.0340 & 1.0990 & 6086749 & 6091561 & 0 & 1 \\
+sorted\_runs & BubbleSort & 7.5641 & 0.1511 & 12487489 & 18245253 & 0 & 1 \\
+\hline
+\end{tabular}%
+}
+\end{table}

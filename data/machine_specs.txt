@@ -1,0 +1,13 @@
+=== DATA DA COLETA (UTC) ===
+2026-10-16T00:15:46.197448+00:00
+
+=== PLATAFORMA (Python platform) ===
+System: Windows
+Node: welcome-to-the-wired
+Release: 10
+Version: 10.0.19045
+Machine: AMD64
+Processor: AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD , RYZEN 5 3400G
+
+=== UNAME ===
+MINGW64_NT-10.0-19045 welcome-to-the-wired 3.5.7-463ebcdc.x86_64 2025-03-03 17:26 UTC x86_64 Msys
